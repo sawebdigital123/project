@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="assets/css/backToTop.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+
+    <style>
+        .slider .slides {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-25%);
+            width: 196px;
+            height: 274px;
+            background: var(--img) no-repeat;
+            background-size: contain;
+            transition: 0.5s;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    
+  <!-- Preloader -->
+  <div class="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+         <div class="main-logo">
+           <div class="logo">
+             <h2>P<span class="txt-black">o</span>rtfolio</h2>
+           </div>
+         </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>  
+    </div>
+  </div>
+  
+  <!-- Back To Top Button -->
+  <!-- <div class="progress-wrap">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 20V4M12 4L5 11M12 4L19 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div> -->
+  
+
+    <!-- Header -->
+    <header class="header-section">
+      <div class="container">
+       <div class="header-wrapper">
+         <div class="main-logo">
+           <a href="#" class="logo">
+             <h4>P<span class="text-black">o</span>rtfolio</h4>
+           </a>
+         </div> 
+         <ul class="main-menu one-page-nav">
+           <li>
+             <a href="#home">Home</a>
+           </li>
+           <li>
+             <a href="#about">About</a>
+           </li>
+           <li>
+             <a href="#portfolio">Portfolio</a>
+           </li>
+           <li>
+             <a href="#services">Services</a>
+           </li>
+           <li>
+             <a href="#testimonial">Testimonial</a>
+           </li>
+           <!-- <li>
+             <a href="#blog">Blog</a>
+           </li> -->
+           <li>
+             <a href="#contact">Contact</a>
+           </li>
+         </ul>
+         <div class="menu-components d-flex align-items-center">
+          <a href="#contact" class="d-none d-xl-flex lets-talk align-items-center">
+            <span class="get-text">Let's Talk&nbsp;</span>
+            <span>
+               <i class="bi bi-arrow-up-right"></i>
+            </span>
+          </a>
+          <div class="header-bar d-lg-none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="remove-click">
+            <div class="hamburger-menu"></div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </header>
+    
+     <!-- Hero Section -->
+     <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <div class="hero-subtitle wow fadeInUp">
+                            <span>Hi there! <img src="assets/img/hero/hi.svg" alt="wave" class="wave-icon"> I'm</span>
+                        </div>
+                        <h1 class="hero-title wow fadeInUp" data-wow-delay="0.2s">Sanidhya Ajudiya</h1>
+                        <h2 class="hero-designation wow fadeInUp" data-wow-delay="0.4s">Web Developer</h2>
+                        <p class="hero-text wow fadeInUp" data-wow-delay="0.6s">
+                            I believe that collaboration and creativity are the essence of progress. 
+                            I am dedicated to bringing a fresh perspective to every project I undertake.
+                        </p>
+                        <div class="hero-buttons wow fadeInUp" data-wow-delay="0.8s">
+                            <a href="#contact" class="btn btn-primary me-3">
+                                Let's Talk <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary">
+                                Download CV <i class="bi bi-download ms-2"></i>
+                            </a>
+                        </div>
+                        <div class="hero-social mt-4 wow fadeInUp" data-wow-delay="1s">
+                            <span class="me-3">Follow me:</span>
+                            <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-wrapper wow fadeIn" data-wow-delay="0.5s">
+                        <div class="hero-image">
+                            <img src="assets/img/hero/profile-pic.jpg" alt="Sanidhya Ajudiya" class="img-fluid">
+                        </div>
+                        <div class="hero-shape-1"></div>
+                        <div class="hero-shape-2"></div>
+                        <div class="hero-shape-3"></div>
+                        <div class="hero-experience">
+                            <div class="exp-icon">
+                                <i class="bi bi-trophy"></i>
+                            </div>
+                            <div class="exp-content">
+                                <h4>1+ Years</h4>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section --> 
+    <section class="skills section-pt z-3">
+    <div class="skills-slider owl-carousel container-md wow fadeInUp" data-wow-delay=".3s">
+        <div class="skill-item">
+            <figure>
+                <img src="assets/img/skills/html.png" alt="html">
+            </figure>
+            <div class="skill-txt">
+                <h4>100%</h4>
+                <span>html</span>
+            </div>
+        </div>
+        <div class="skill-item">
+            <figure>
+                <img src="assets/img/skills/javascript.png" alt="javascript">
+            </figure>
+            <div class="skill-txt">
+                <h4>60%</h4>
+                <span>javascript</span>
+            </div>
+        </div>
+        <div class="skill-item">
+            <figure>
+                <img src="assets/img/skills/bootstrap.png" alt="bootstrap">
+            </figure>
+            <div class="skill-txt">
+                <h4>60%</h4>
+                <span>bootstrap</span>
+            </div>
+        </div>
+        <div class="skill-item">
+            <figure>
+                <img src="assets/img/skills/React js.png" alt="React js">
+            </figure>
+            <div class="skill-txt">
+                <h4>50%</h4>
+                <span>React js</span>
+            </div>
+        </div>
+        <div class="skill-item">
+            <figure>
+                <img src="assets/img/skills/wordpress.png" alt="wordpress">
+            </figure>
+            <div class="skill-txt">
+                <h4>100%</h4>
+                <span>wordpress</span>
+            </div>
+        </div>
+        <div class="skill-item">
+            <figure>
+                <img src="assets/img/skills/canva.png" alt="canva">
+            </figure>
+            <div class="skill-txt">
+                <h4>40%</h4>
+                <span>canva</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- About Section -->
+   <section id="about" class="about section-pt">
+     <div class="container wow fadeInUp" data-wow-delay=".3s">
+       <div class="section-title">
+          <h3>About Me</h3>
+          <span></span>
+       </div>
+       <h3 class="about-info wow fadeInUp" data-wow-delay=".4s">
+         I am a Full Stack Developer with over 1 year of experience in <span class="txt-orange">Web Development</span> market. I have work with large companies & challenges throughout my career.
+       </h3>
+       <div class="row">
+            <div class="col-md-6 d-inline-flex flex-column justify-content-between">
+                <div class="year-exp wow fadeInLeft" data-wow-delay=".5s">
+                    <div class="year-exp-txt text-center text-md-start">
+                        <span>1+</span>
+                        <h4 class="text-center text-md-start">Years<br>Experience</h4>
+                    </div>
+                </div>
+                <a href="javascript:void(0)" class="bttn-round"><span class="btn-txt">About Me <i
+                            class="bi bi-arrow-up-right"></i></span></a>
+            </div>
+            <div class="col-md-6">
+                <figure class="wow fadeInRight" data-wow-delay=".5s">
+                    <img src="assets/img/hero/profile-pic.jpg" alt="creativemela">
+                </figure>
+            </div>
+        </div>
+     </div>
+   </section>
+   
+   <!-- Project section -->
+    <section id="portfolio" class="projects section-mt">
+     <div class="project-wrapper">
+       <div class="container">
+        <div class="section-title-wrapper row">
+          <div class="col-xxl-5 col-12">
+            <div class="section-title wown fadeInUp" data-wow-delay=".3s">
+               <h3>Latest Project</h3>
+               <span></span>
+            </div> 
+          </div>
+          <div class="col-xxl-7 col-12">
+            <nav class="project-filter">
+              <ul class="d-flex flex-wrap justify-content-xxl-end wow fadeInUp" data-wow-delay=".4s">
+                <li><span class="active" data-filter="*">All Design</span></li>
+                <li><span data-filter=".website">Website Design</span></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="projects-container">
+          <div class="gutter-size">
+           <div class="grid-item big website wow fadeInUp" data-wow-delay=".6s">
+              <div class="project-item">
+                  <figure>
+                      <img src="assets/img/Project/Project - 01.png" alt="creativemela">
+                  </figure>
+                  <div class="overlay-content">
+                      <div class="rounded-btn modal-popup" data-mfp-src="#popup">View <i
+                              class="bi bi-arrow-up-right"></i></div>
+                      <h4 class="title">Web Design</h4>
+                  </div>
+              </div>
+          </div> 
+          <!-- Project 2  -->
+           <div class="grid-item big website wow fadeInUp" data-wow-delay=".6s">
+              <div class="project-item">
+                  <figure>
+                      <img src="assets/img/Project/Project - 02.png" alt="creativemela">
+                  </figure>
+                  <div class="overlay-content">
+                      <div class="rounded-btn modal-popup" data-mfp-src="#popup">View <i
+                              class="bi bi-arrow-up-right"></i></div>
+                      <h4 class="title">Web Design</h4>
+                  </div>
+              </div>
+          </div> 
+          </div>
+        </div>
+       </div>
+     </div>
+    </section> 
+    
+  <!-- JavaScript Files -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+
+  <!-- Custom js -->
+  <script src="assets/js/active.js"></script>
+  <script src="assets/js/project-details.js"></script>
+  
+  <!-- Project Details Modal -->
+  <div id="projectModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Project Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-8">
+                <img id="modalProjectImage" src="" alt="Project Image" class="img-fluid rounded">
+              </div>
+              <div class="col-md-4">
+                <h3 id="modalProjectTitle" class="mb-3"></h3>
+                <p id="modalProjectDescription" class="mb-4"></p>
+                <div class="project-details">
+                  <h6>Project Details</h6>
+                  <ul id="projectDetailsList" class="list-unstyled">
+                    <!-- Will be populated by JavaScript -->
+                  </ul>
+                </div>
+                <div class="project-links mt-4">
+                  <a href="#" id="projectLiveLink" class="btn btn-primary me-2" target="_blank">
+                    <i class="bi bi-eye-fill me-1"></i> Live Preview
+                  </a>
+                  <a href="#" id="projectCodeLink" class="btn btn-outline-secondary" target="_blank">
+                    <i class="bi bi-code-slash me-1"></i> View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services" class="services section-pt">
+    <div class="container">
+      <div class="section-title wow fadeInUp" data-wow-delay=".3s">
+        <h3>Latest Services</h3>
+        <span></span>
+      </div>
+      <div class="service-item-wrapper">
+            <div class="service-item wow fadeInUp" data-wow-delay=".5s">
+                <div class="service-txt">
+                    <span class="service-thumb">Web Design</span>
+                    <ul class="service-panel">
+                        <li>+ Design Systems and Guidelines</li>
+                        <li>+ Prototyping and User Testing</li>
+                        <li>+ Product Strategy and Consulting</li>
+                    </ul>
+                </div>
+                <div class="btn-wrapper ms-auto">
+                    <a href="#" class="bttn-round modal-popup" data-mfp-src="#popup"><span class="btn-txt">View
+                            <i class="bi bi-arrow-up-right"></i></span></a>
+                </div>
+            </div>
+
+            <div class="service-item wow fadeInUp" data-wow-delay=".7s">
+                <div class="service-txt">
+                    <span class="service-thumb">UI/UX Design</span>
+                    <ul class="service-panel">
+                        <li>+ Design Systems and Guidelines</li>
+                        <li>+ Prototyping and User Testing</li>
+                        <li>+ Product Strategy and Consulting</li>
+                    </ul>
+                </div>
+                <div class="btn-wrapper ms-auto">
+                    <a href="#" class="bttn-round modal-popup" data-mfp-src="#popup"><span class="btn-txt">View
+                            <i class="bi bi-arrow-up-right"></i></span></a>
+                </div>
+            </div>
+
+            <div class="service-item wow fadeInUp" data-wow-delay=".9s">
+                <div class="service-txt">
+                    <span class="service-thumb">Ai Development</span>
+                    <ul class="service-panel">
+                        <li>+ Design Systems and Guidelines</li>
+                        <li>+ Prototyping and User Testing</li>
+                        <li>+ Product Strategy and Consulting</li>
+                    </ul>
+                </div>
+                <div class="btn-wrapper ms-auto">
+                    <a href="#" class="bttn-round modal-popup" data-mfp-src="#popup"><span class="btn-txt">View
+                            <i class="bi bi-arrow-up-right"></i></span></a>
+                </div>
+            </div>
+
+            <div class="service-item wow fadeInUp" data-wow-delay="1.1s">
+                <div class="service-txt">
+                    <span class="service-thumb">Mobile App Development</span>
+                    <ul class="service-panel">
+                        <li>+ Design Systems and Guidelines</li>
+                        <li>+ Prototyping and User Testing</li>
+                        <li>+ Product Strategy and Consulting</li>
+                    </ul>
+                </div>
+                <div class="btn-wrapper ms-auto">
+                    <a href="#" class="bttn-round modal-popup" data-mfp-src="#popup"><span class="btn-txt">View
+                  <i class="bi bi-arrow-up-right"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <!-- Testimonial Section -->
+  <section id="testimonial" class="testimonial position-relative section-pt">
+   <div class="container">
+     <span class="title wow fadeInUp" data-wow-delay=".3s">Testimonial</span>
+     <figure class="quate-wrapper wow fadeInUp" data-wow-delay=".6s"><img src="assets/img/Testimonial/quate.png" alt="quate"></figure>
+     <figure class="style"><img src="assets/img/Testimonial/style.svg" alt="style"></figure>
+     <figure class="arrow"><img src="assets/img/Testimonial/arrow.svg" alt="arrow"></figure>
+     <div class="slider-wrapper">
+       <div class="slider-container">
+         <div class="slider">
+           <div class="slide wow fadeInUp active" data-wow-delay="1.2s">
+            <div class="testimonial-image" style="background-image: url('assets/img/Testimonial/testimonial - 01.png')"></div>
+            <div class="content wow fadeInUp" data-wow-delay=".9s">
+              <h5>Working with Cameron Williamson has been a game. Their ability to understand
+                  our vision and translate it into was impressive. The design solutions
+                  provided by Came improved our user engagement.</h5>
+              <div class="testimonial-author">
+                <h6>John Doe</h6>
+                <span>CEO, Company Name</span>
+              </div>
+            </div>
+           </div>
+           <div class="slide">
+            <div class="testimonial-image" style="background-image: url('assets/img/Testimonial/testimonial - 01.png')"></div>
+            <div class="content">
+              <h5>Working with Cameron Williamson has been a game. Their ability to understand
+                  our vision and translate it into was impressive. The design solutions
+                  provided by Came improved our user engagement.</h5>
+              <div class="testimonial-author">
+                <h6>Jane Smith</h6>
+                <span>Marketing Director, Company Name</span>
+              </div>
+            </div>
+           </div>
+           <div class="slide">
+            <div class="testimonial-image" style="background-image: url('assets/img/Testimonial/testimonial - 01.png')"></div>
+            <div class="content">
+              <h5>Working with Cameron Williamson has been a game. Their ability to understand
+                  our vision and translate it into was impressive. The design solutions
+                  provided by Came improved our user engagement.</h5>
+              <div class="testimonial-author">
+                <h6>Michael Johnson</h6>
+                <span>Product Manager, Company Name</span>
+              </div>
+            </div>
+           </div>
+         </div>
+         <div class="buttons">
+            <span class="prev"><i class="bi bi-arrow-left"></i></span>
+            <span class="next"><i class="bi bi-arrow-right"></i></span>
+        </div>
+       </div>
+     </div>
+   </div> 
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing section-mt">
+    <div class="pricing-wrapper">
+     <div class="container">
+      <div class="section-title wow fadeInUp" data-wow-delay=".3s">
+        <h3>Pricing</h3>
+        <span></span>
+      </div>
+      <div class="pricing-item-wrapper row g-lg-5 g-md-4 g-3">
+        <div class="col-xl-4 col-md-6">
+         <div class="pricing-item d-flex flex-column justify-content-between wow fadeInUp" data-wow-delay=".5s">
+           <div>
+             <h6>Web Devlopment</h6>
+             <h3>$400<span> / Timeline</span></h3>
+             <p>4 - 7 Week</p>
+             <div class="feature">
+               <h6>Includes</h6>
+              </div>
+               <ul>
+                 <li>Laravel & PHP Backend Development</li>
+                 <li>React & Vue.js Frontend Development</li>
+                 <li>Database Design & Optimization</li>
+                 <li>Responsive Design Implementation</li>
+                 <li>Performance Optimization</li>
+               </ul>
+             </div>
+             <button type="button">Get Started</button>
+         </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+         <div class="pricing-item d-flex flex-column justify-content-between wow fadeInUp" data-wow-delay=".5s">
+           <div>
+             <h6>Ui - Ux Design</h6>
+             <h3>$600<span> / Timeline</span></h3>
+             <p>4 - 7 Week</p>
+             <div class="feature">
+               <h6>Includes</h6>
+              </div>
+               <ul>
+                 <li>UI/UX Design</li>
+                 <li>Wireframes and Mockups</li>
+                 <li>Interactive Prototypes</li>
+                 <li>Usability Testing</li>
+                 <li>Responsive Design Implementation</li>
+               </ul>
+             </div>
+             <button type="button">Get Started</button>
+         </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+         <div class="pricing-item d-flex flex-column justify-content-between wow fadeInUp" data-wow-delay=".5s">
+           <div>
+             <h6>Mobile App Development</h6>
+             <h3>$600<span> / Timeline</span></h3>
+             <p>4 - 7 Week</p>
+             <div class="feature">
+               <h6>Includes</h6>
+              </div>
+               <ul>
+                 <li>Python & java Backend Development</li>
+                 <li>kotlin & React Native Frontend Development</li>
+                 <li>Database Design & Optimization</li>
+                 <li>Responsive Design Implementation</li>
+                 <li>Performance Optimization</li>
+               </ul>
+             </div>
+             <button type="button">Get Started</button>
+         </div>
+        </div>
+      </div>
+     </div> 
+    </div> 
+  </section> 
+
+  <!-- Blog Section -->
+  <!-- <section id="blogs" class="blogs section-mt">
+    <div class="container">
+      <div class="section-title wow fadeInUp" data-wow-delay=".3s">
+        <h3>Blog</h3>
+        <span></span>
+      </div>
+      <div class="blog-item-wrap">
+        <div class="blog-item wow fadeInUp" data-wow-delay=".5s">
+          <div class="blog-thumb row ">
+              <div class="col-xl-6 col-lg-7 col-md-9">
+                  <h4 class="blog-title">The Importance of User Centered Design in Startups</h4>
+              </div>
+              <div class="col-xl-6 col-lg-5 col-md-3 d-none d-md-block">
+                  <div class="position-relative">
+                      <div class="date">
+                          <h4>22/</h4>
+                          <h6>Dec</h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="blog-panel">
+              <figure class="text-center">
+                  <img src="assets/img/blog/blog-thumbnail.png" alt="creativemela">
+                  <div class="btn-wrapper">
+                      <a href="#" class="bttn-round pop modal-popup" data-mfp-src="#blog-popup"><span
+                        class="btn-txt">View <i class="bi bi-arrow-up-right"></i></span></a>
+                  </div>
+              </figure>
+          </div>
+      </div>
+      <div class="blog-item wow fadeInUp" data-wow-delay=".5s">
+          <div class="blog-thumb row ">
+              <div class="col-xl-6 col-lg-7 col-md-9">
+                  <h4 class="blog-title">The Importance of User Centered Design in Startups</h4>
+              </div>
+              <div class="col-xl-6 col-lg-5 col-md-3 d-none d-md-block">
+                  <div class="position-relative">
+                      <div class="date">
+                          <h4>22/</h4>
+                          <h6>Dec</h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="blog-panel">
+              <figure class="text-center">
+                  <img src="assets/img/blog/blog-thumbnail.png" alt="creativemela">
+                  <div class="btn-wrapper">
+                      <a href="#" class="bttn-round pop modal-popup" data-mfp-src="#blog-popup"><span
+                              class="btn-txt">View <i class="bi bi-arrow-up-right"></i></span></a>
+                  </div>
+              </figure>
+          </div>
+      </div>
+      <div class="blog-item wow fadeInUp" data-wow-delay=".5s">
+          <div class="blog-thumb row ">
+              <div class="col-xl-6 col-lg-7 col-md-9">
+                  <h4 class="blog-title">The Importance of User Centered Design in Startups</h4>
+              </div>
+              <div class="col-xl-6 col-lg-5 col-md-3 d-none d-md-block">
+                  <div class="position-relative">
+                      <div class="date">
+                          <h4>22/</h4>
+                          <h6>Dec</h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="blog-panel">
+              <figure class="text-center">
+                  <img src="assets/img/blog/blog-thumbnail.png" alt="creativemela">
+                  <div class="btn-wrapper">
+                      <a href="#" class="bttn-round pop modal-popup" data-mfp-src="#blog-popup"><span
+                              class="btn-txt">View <i class="bi bi-arrow-up-right"></i></span></a>
+                  </div>
+              </figure>
+          </div>
+      </div>
+      </div>
+    </div> 
+  </section>  -->
+
+  <!-- Contact section -->
+  <section id="contact" class="contact section-mt">
+    <div class="container">
+        <div class="contact-content row">
+            <div class="col-lg-6">
+                <span class="large-txt wow fadeInUp" data-wow-delay=".3s">Let’s Contact!</span>
+                <p class="wow fadeInUp" data-wow-delay=".4s">I am always open to discussing new projects,
+                    creative ideas, or opportunities to be
+                    a part of your vision. Feel free to reach out through.</p>
+                <form id="contact-form" action="#" method="POST" class="wow fadeInLeft"
+                    data-wow-delay=".5s">
+                    <div class="user-details row">
+                        <div class="input-box col-md-6">
+                            <label class="details" for="first-name">First Name</label>
+                            <input type="text" id="first-name" class="text" name="first_name" placeholder=""
+                                autocomplete="off" required>
+                        </div>
+                        <div class="input-box col-md-6">
+                            <label class="details" for="last-name">Last Name</label>
+                            <input type="text" id="last-name" class="text" name="last_name" placeholder=""
+                                autocomplete="off" required>
+                        </div>
+                        <div class="input-box col-md-6">
+                            <label class="details" for="mail">Email</label>
+                            <input type="email" id="mail" class="text" name="email" placeholder=""
+                                autocomplete="off" required>
+                        </div>
+                        <div class="input-box col-md-6">
+                            <label class="details" for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="text" name="phone" placeholder=""
+                                autocomplete="off" required>
+                        </div>
+                    </div>
+                    <div class="user-message">
+                        <label class="details" for="message">Message</label>
+                        <textarea id="message" name="message" cols="1" rows="2"
+                            placeholder="Write your message..." autocomplete="off" required></textarea>
+                    </div>
+                    <button type="submit" class="bttn  bttn-theme">Let's Talk <i
+                            class="bi bi-arrow-up-right"></i></button>
+                </form>
+                <p id="form-message"></p>
+            </div>
+            <div class="col-lg-5 ms-auto my-auto">
+                <div class="py-auto">
+                    <nav class="wow fadeInRight" data-wow-delay=".7s">
+                        <ul>
+                            <li>
+                                <a href="#home">
+                                    <div class="link-txt d-flex justify-content-between">
+                                        <span>Home</span>
+                                        <span>01</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    <div class="link-txt d-flex justify-content-between">
+                                        <span>About Me</span>
+                                        <span>02</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">
+                                    <div class="link-txt d-flex justify-content-between">
+                                        <span>Portfolio</span>
+                                        <span>03</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#blogs">
+                                    <div class="link-txt d-flex justify-content-between">
+                                        <span>Blog</span>
+                                        <span>04</span>
+                                    </div>
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href="#contact">
+                                    <div class="link-txt d-flex justify-content-between">
+                                        <span>Contact</span>
+                                        <span>04</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="social-media wow fadeInUp" data-wow-delay=".9s">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com/" target="_blank">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Footer -->
+  <footer>
+        <div class="container">
+            <div class="footer-content d-flex justify-content-between align-items-center">
+                <h4 class="d-none d-md-block">P<span class="txt-orange">o</span>rtfolio</h4>
+                <p class="copy-right mx-auto mx-md-0">
+                    &copy; 2025
+                    <a href="#" target="_blank">Portfolio</a>
+                    - All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+  <!-- Testimonial Slider Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize WOW.js
+      new WOW().init();
+      
+      // Testimonial Slider
+      const slides = document.querySelectorAll('.slide');
+      const prevBtn = document.querySelector('.prev');
+      const nextBtn = document.querySelector('.next');
+      let currentSlide = 0;
+      const totalSlides = slides.length;
+
+      // Show first slide
+      showSlide(currentSlide);
+
+      // Next/previous controls
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      // Show specific slide
+      function showSlide(index) {
+        // Hide all slides
+        slides.forEach(slide => {
+          slide.classList.remove('active');
+        });
+        
+        // Show current slide
+        slides[index].classList.add('active');
+      }
+
+      // Auto-advance slides every 5 seconds
+      let slideInterval = setInterval(nextSlide, 5000);
+
+      // Pause auto-advance on hover
+      const sliderContainer = document.querySelector('.slider-container');
+      sliderContainer.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+      });
+
+      sliderContainer.addEventListener('mouseleave', () => {
+        slideInterval = setInterval(nextSlide, 5000);
+      });
+
+      // Add click events to navigation buttons
+      if (nextBtn && prevBtn) {
+        nextBtn.addEventListener('click', () => {
+          clearInterval(slideInterval);
+          nextSlide();
+          slideInterval = setInterval(nextSlide, 5000);
+        });
+
+        prevBtn.addEventListener('click', () => {
+          clearInterval(slideInterval);
+          prevSlide();
+          slideInterval = setInterval(nextSlide, 5000);
+        });
+      }
+    });
+  </script>
+  
+  <!-- Initialize Skills Carousel -->
+  <script>
+    $(document).ready(function(){
+      $(".skills-slider").owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 2
+          },
+          576: {
+            items: 3
+          },
+          768: {
+            items: 4
+          },
+          992: {
+            items: 5
+          },
+          1200: {
+            items: 6
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

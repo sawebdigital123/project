@@ -1,0 +1,479 @@
+/******************** Dark Theme Style *******************/
+
+body.dark {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+.dark .bttn {
+  border: 1px solid var(--clr-white-10);
+}
+.dark .bttn-primary,
+.dark .bttn-secondary:hover,
+.dark .bttn-secondary:focus {
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+}
+.dark .bttn-secondary,
+.dark .bttn-primary:hover,
+.dark .bttn-primary:focus {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+
+.dark .bttn-round {
+  background: var(--clr-white-06);
+}
+.dark .section-title span {
+  background: var(--clr-white);
+}
+.dark .section-title span::after {
+  background: var(--clr-white);
+}
+/*
+*==============================================================
+*                       Header 
+*==============================================================
+*/
+.dark .header-section {
+  border-bottom: 1px solid var(--clr-white-10);
+}
+.dark .menu-fixed {
+  background: var(--clr-black);
+  box-shadow: none;
+}
+@media (min-width: 1400px) {
+  .dark .header-wrapper .main-logo .logo {
+    border-right: 1px solid var(--clr-white-10);
+  }
+  .dark .header-wrapper .menu-components .lets-talk {
+    border-left: 1px solid var(--clr-white-10);
+  }
+}
+.dark .header-wrapper .remove-click {
+  background: var(--clr-white-10);
+}
+.dark .subside-barmenu {
+  background: #272727;
+}
+.dark .subside-barmenu .sub-contact-wrapper p,
+.dark .sub-contac-item .address-widget .textp {
+  color: var(--clr-white);
+}
+@media screen and (max-width: 991px) {
+  .dark .header-bar span {
+    background: var(--clr-white);
+  }
+  .dark .main-menu {
+    background: var(--clr-black);
+  }
+  .dark .header-wrapper .main-menu li .sub-menu li a {
+    color: var(--clr-white);
+  }
+}
+@media (min-width: 992px) {
+  .dark .header-wrapper .main-menu li .sub-menu li a {
+    color: var(--clr-white);
+  }
+  .dark .header-wrapper .main-menu li .sub-menu {
+    background: #1d1c1c;
+  }
+  .dark .header-wrapper .main-menu li .sub-menu li:not(:last-child) {
+    border-bottom: 1px solid var(--clr-white-10);
+  }
+  .dark .header-wrapper .main-menu li:hover .sub-menu::before {
+    background: #1d1c1c;
+  }
+}
+/*
+*==============================================================
+*                       Hero Section 
+*==============================================================
+*/
+.dark .hero .bg-line {
+  background: var(--clr-white-10);
+}
+.dark .hero .bg-line::after {
+  border: 2px solid var(--clr-white-10);
+  background-color: var(--clr-black);
+}
+.dark .hero .social-media li a {
+  background: var(--clr-white-06);
+  color: var(--clr-white);
+}
+.dark .hero .social-media li a:hover {
+  background: var(--clr-white);
+  color: var(--clr-black);
+}
+.dark .hero .profession {
+  color: var(--clr-black);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+    1px -1px 0 rgba(255, 255, 255, 0.2);
+}
+.dark .hero .profession::after {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(15, 14, 14, 0.5) 0%,
+    rgba(15, 14, 14, 1) 100%
+  );
+}
+/*
+*==============================================================
+*                     Skills Section  
+*==============================================================
+*/
+.dark .skills .skill-item {
+  border: 1px solid var(--clr-white-10);
+}
+.dark .skill-item figure {
+  background: var(--clr-white-06);
+}
+/*
+*==============================================================
+*                      About Section  
+*==============================================================
+*/
+.dark .about-info {
+  color: var(--clr-gray);
+}
+.dark .about .year-exp::before {
+  content: url(../images/about/arrow-white.svg);
+}
+.dark .about .year-exp::after {
+  content: url(../images/shape-white.svg);
+}
+/*
+*==============================================================
+*                      Project Section  
+*==============================================================
+*/
+.dark .projects {
+  background: var(--clr-white-06);
+}
+.dark .projects-wrapper .section-title span {
+  background: var(--clr-white-10);
+}
+.dark .projects-wrapper .section-title span::after {
+  background: #2d2c2c;
+}
+.dark .projects .bttn-round {
+  background: transparent;
+}
+/*
+*==============================================================
+*                     Services Section  
+*==============================================================
+*/
+.dark .services .service-item {
+  border-bottom: 1px solid var(--clr-white-10);
+}
+/*
+*==============================================================
+*                     Testimonial Section  
+*==============================================================
+*/
+.dark .testimonial .title {
+  color: var(--clr-black);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+    1px -1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.dark .testimonial .title::after {
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 243, 0) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+}
+.dark .buttons span {
+  background: #1d1c1c;
+  border: 1px solid #1d1c1c;
+}
+.dark .buttons span:hover,
+.dark .buttons span:focus {
+  color: var(--clr-white);
+  background: transparent;
+}
+/*
+*==============================================================
+*                   Marquee Text Animation  
+*==============================================================
+*/
+.dark .text-stroke-black {
+  color: var(--clr-black);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+    1px -1px 0 rgba(255, 255, 255, 0.2);
+}
+/*
+*==============================================================
+*                     Pricing Section  
+*==============================================================
+*/
+.dark .pricing-wrapper {
+  background: var(--clr-white-06);
+}
+.dark .pricing-wrapper .section-title::after {
+  content: url(../images/shape-white.svg);
+}
+.dark .pricing .pricing-item {
+  border: 1px solid var(--clr-white-10);
+}
+.dark .pricing .pricing-item:hover {
+  border: 1px solid var(--clr-black);
+}
+.dark .pricing-item .feature::before {
+  content: url(../images/pricing/arrow-white.svg);
+}
+.dark .pricing-item p,
+.dark .pricing-item ul li {
+  color: var(--clr-white-50);
+}
+.dark .pricing-item:hover p {
+  color: var(--clr-white);
+}
+.dark .pricing-item ul li::before {
+  background: var(--clr-white-10);
+}
+.dark .pricing-item button {
+  border: 1px solid var(--clr-white);
+  color: var(--clr-white);
+}
+/*
+*==============================================================
+*                     Brands Section  
+*==============================================================
+*/
+.dark .brands span::before,
+.dark .brands span::after {
+  background: var(--clr-white);
+}
+/*
+*==============================================================
+*                     Blogs Section  
+*==============================================================
+*/
+.dark .blogs .section-title::after {
+  content: url(../images/shape-white.svg);
+}
+.dark .blogs .blog-item {
+  border-bottom: 1px solid var(--clr-white-10);
+}
+.dark .blogs .blog-item .date {
+  border: 1px solid var(--clr-white-10);
+}
+.dark .blogs .blog-item .btn-wrapper .bttn-round {
+  background: var(--clr-black);
+}
+/*
+*==============================================================
+*                     Contact Section  
+*==============================================================
+*/
+.dark .contact {
+  background: var(--clr-white-06);
+}
+.dark .text-stroke-white {
+  color: #1d1c1c;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+    1px -1px 0 rgba(255, 255, 255, 0.2);
+}
+/*
+*==============================================================
+*                     Footer Section  
+*==============================================================
+*/
+.dark footer {
+  background: var(--clr-black);
+}
+/*
+* ===============================
+*             Preloader
+* ===============================
+*/
+.dark .container-preloader .loader-section {
+  background-color: var(--clr-black);
+}
+/*
+* ===============================
+*           Popup Section
+* ===============================
+*/
+.dark .popup_content_area {
+  border: none;
+}
+.dark .popup_modal_content {
+  background-color: #1d1c1c;
+}
+.dark .popup_content_area .mfp-close {
+  background: linear-gradient(
+    135deg,
+    var(--clr-gray) 16.35%,
+    var(--clr-black) 91.35%
+  );
+}
+.dark .popup_modal_content p {
+  color: var(--clr-white-50) !important;
+}
+.dark .project-info-wrapper .client-meta h6 {
+  color: var(--clr-white);
+}
+.dark .project-info-wrapper h3 {
+  color: var(--clr-white);
+}
+.dark .project-info-wrapper .hr,
+.dark .project-info-wrapper ul li,
+.dark .project-info-wrapper ul li::before {
+  color: var(--clr-white-50);
+}
+.dark .project-info-wrapper .footer-modal button {
+  border: 1px solid #ffffff26;
+  color: var(--clr-white);
+  background-color: #ffffff26;
+}
+.dark .project-info-wrapper .footer-modal button:hover {
+  background-color: var(--clr-black);
+}
+.dark .project-info-wrapper .footer-modal span {
+  color: #ffffff26;
+}
+/* Blog popup  */
+.dark #blog-popup form label {
+  color: var(--clr-white-50);
+}
+.dark #blog-popup .blog-meta span,
+.dark #blog-popup .blog-meta p {
+  color: var(--clr-white-50);
+}
+.dark #blog-popup input,
+.dark #blog-popup textarea {
+  border-bottom: 1px solid var(--clr-white-10);
+  color: var(--clr-white-50);
+}
+.dark #blog-popup input:focus,
+.dark #blog-popup textarea:focus {
+  border-bottom: 1px solid var(--clr-white-50);
+}
+/*
+* ===============================
+*            Blog Page
+* ===============================
+*/
+.dark .breadcumb-area {
+  background-color: var(--clr-white-06);
+}
+/* Blog Page Sidebar */
+.dark .sidebar-single-widget {
+  background: var(--clr-white-06);
+}
+/* Search Widget */
+.dark .widget-search input {
+  color: var(--clr-white);
+  background: var(--clr-white-10);
+  border-color: var(--clr-black);
+}
+.dark .widget-search input:focus {
+  border-color: var(--clr-white-50);
+}
+.dark .widget-search button {
+  color: var(--clr-white);
+}
+/* Social Icon Widget */
+.dark .socialicon-widget ul li a {
+  background: var(--clr-white-10);
+  color: var(--clr-white-50);
+}
+/* Category Widget */
+.dark .category-widget ul li a {
+  color: var(--clr-white);
+}
+/* Blog Widgets */
+.dark .sidebar-blog-widgets .single-item .content span a {
+  color: var(--clr-white-50);
+}
+/* Pagination */
+.dark .glenic-pagination ul li a {
+  background-color: var(--clr-white-06);
+  color: var(--clr-white);
+}
+.dark .glenic-pagination ul li a:hover,
+.dark .glenic-pagination ul li span {
+  background: var(--clr-white);
+  color: var(--clr-black);
+}
+/* Blog Item*/
+.dark .blogs-section .read-more {
+  color: var(--clr-white);
+}
+/*
+* ===============================
+*           Blog Datails Page
+* ===============================
+*/
+.dark .blog-details-full .b-auth-section .left-a span,
+.dark .blog-details-full .b-auth-section .left-a span:nth-child(2):after {
+  color: var(--clr-white-50);
+}
+/* Blog Share */
+
+/* Blog Details */
+.dark .blog-details-full .content p {
+  color: var(--clr-white-50);
+}
+.dark .blog-details-full .content p.quote,
+.dark .blog-details-full .content p.quote:after {
+  background: var(--clr-white-06);
+}
+.dark .blog-details-full .blog-tags {
+  border-top: 1px solid var(--clr-white-10);
+}
+.dark .blog-details-full .blog-tags a {
+  background: var(--clr-white-06);
+  color: var(--clr-white);
+}
+.dark .blog-details-full .blog-tags a:hover {
+  background: var(--clr-white);
+  color: var(--clr-black);
+}
+.dark .blog-author-section {
+  background: var(--clr-white-06);
+}
+.dark .blog-author-section .content-auth .auth-header h4 a,
+.dark .blog-author-section .content-auth .auth-header .a-social-icon span a {
+  color: var(--clr-white);
+}
+.dark .blog-author-section .content-auth p {
+  color: var(--clr-white-50);
+}
+/* Navigate */
+.dark .singlepage-navigation a span {
+  color: var(--clr-white-50);
+}
+.dark .singlepage-navigation a i {
+  border: 1px solid var(--clr-light-gray);
+}
+.dark .singlepage-navigation a:hover i {
+  background: transparent;
+  color: var(--clr-white);
+}
+/* Comment Form */
+.dark .comment-section-full {
+  background: var(--clr-white-06);
+}
+.dark .comment-section-full ul li.single-comment ul.comment-reply {
+  border-top: 1px solid var(--clr-white-10);
+}
+.dark .comment-section-full label {
+  color: var(--clr-white-50);
+}
+.dark .comment-section-full input,
+.dark .comment-section-full textarea {
+  border-bottom: 1px solid var(--clr-white-10);
+  color: var(--clr-white-50);
+}
+.dark .comment-section-full input:focus,
+.dark .comment-section-full textarea:focus {
+  border-color: var(--clr-white-50);
+}
